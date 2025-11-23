@@ -8,8 +8,8 @@ const MainVideo = () => {
         {/* <h2>Check Out Some Of Our Work!</h2> */}
         <div className="gallery-video-wrapper">
         
-            <video controls poster={require('../../images/porsche-macan-screenshot.png')}>
-            <source className="gallery-video" src={require('../../videos/porsche-macan.mp4')} type="video/mp4" />
+            <video controls poster={require('../../images/Screenshot 2025-11-22 203532.png')}>
+            <source className="gallery-video" src={require('../../videos/blue tesla.mp4')} type="video/mp4" />
             </video>
             
         </div>

@@ -1,7 +1,7 @@
 .about {
     margin: 0;
     text-align: left;
-    background-image: linear-gradient(to top, rgba(96, 96, 96, 0.662), rgb(255, 255, 255), rgba(96, 96, 96, 0.662));
+    background-image: linear-gradient(to top, rgba(134, 134, 134, 0.662), rgb(255, 255, 255), rgba(134, 134, 134, 0.662));
     display: flex;
     justify-content: center;
     align-items: top;
