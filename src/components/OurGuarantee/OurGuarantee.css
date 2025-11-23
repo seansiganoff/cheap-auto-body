@@ -1,0 +1,68 @@
+.guarantee-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 7rem 0 4rem 0;
+    
+}
+
+.guarantee-text {
+    font-size: large;
+    padding: 3rem 15px 2rem 15px;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    background-color: rgb(231, 231, 231);
+
+}
+li {
+    padding: 0 30px;
+    margin: 0;
+}
+
+.guarantee-container p {
+    font-size: large;
+    padding: 3rem 10px 2rem 10px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.guarantee-banner {
+    padding: 2rem 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-weight: 700;
+    width: 100%;
+    box-shadow: 0px 0px 50px 1px rgba(0, 0, 0, 0.473);
+    border-top: rgb(0, 0, 0) 3px solid;
+    border-bottom: rgb(0, 0, 0)3px solid;
+    background-image: linear-gradient(to left, rgba(222, 222, 222, 0.662), rgba(119, 117, 0, 0.461), rgba(221, 221, 221, 0.662));
+}
+
+@media only screen and (max-width: 1000px) {
+    .guarantee-banner {
+        font-size: x-large;
+    }
+    .guarantee-container p, .guarantee-text {
+        font-size: medium;
+    }
+
+    .guarantee-container p {
+        width: 100%;
+    }
+   
+}
+
+@media only screen and (max-width: 600px) {
+    /* .guarantee-banner {
+        font-size: large;
+    } */
+    .guarantee-container {
+        width: 100%;
+        
+    }
+    .guarantee-container p {
+        font-size: small;
+    }
+}

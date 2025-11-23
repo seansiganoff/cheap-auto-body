@@ -1,0 +1,56 @@
+
+
+.google-img {
+    width: 200px;
+    max-width: 250px;
+    box-shadow: 0px 0px 45px 20px rgba(0, 0, 0, 0.253);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.google-reviews {
+    position: fixed;
+    z-index: 150;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    top: 68%;
+    right: 6%;
+    text-align: right;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 20px;
+    margin: 0;
+}
+
+a:visited, button {
+    border: none;
+    text-decoration: none;
+    outline: none;
+    font-size: x-large;
+    cursor: pointer;
+    margin: 0;
+    background-color: rgba(240, 248, 255, 0);
+}
+.google-reviews-img-div {
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 20px;
+    margin: 0;
+}
+
+.google-close-btn {
+    font-size: x-large;
+    cursor: pointer;
+    font-weight: 700;
+    color: red;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .google-img {
+        width: 120px;
+    }
+    .google-reviews {
+        right: 17%;
+        top: 74%;
+    }
+}

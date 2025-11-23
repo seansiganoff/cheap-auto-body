@@ -1,0 +1,167 @@
+
+.footer {
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-image: url('../../images/body-shop-background3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 14px -2px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-overlay {
+    background-color: rgba(0, 0, 0, 0.765);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    min-height: 50vh;
+}
+
+.footer-overlay h3 {
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    word-break: keep-all;
+    font-size: xxx-large;
+    justify-content: space-evenly;
+}
+
+.my-icons {
+    margin: 10px 0 0 0;
+    width: 4.5rem;
+    position: relative;
+}
+
+.desktop-footer a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.mobile-footer {
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.desktop-footer {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    margin: auto;
+    display: flex;
+    
+    line-height: 28px;
+}
+.desktop-footer li {
+    list-style: none;
+}
+
+
+
+.copyright {
+    text-align: center;
+    font-weight: 200;
+    font-size: x-small;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #000000;
+}
+
+.contact-container {
+    display: flex;
+    align-items: left;
+    justify-content: space-evenly;
+    
+    display: flex;
+}
+
+.contact-container ul {
+    padding: 0;
+}
+
+.contact-us {
+    margin: 1rem 1rem;
+    z-index: 100;
+}
+
+
+.material-icons {
+    color: rgb(182, 182, 182);
+    margin: 0;
+    padding: 20px auto 50px auto;
+}
+
+
+
+
+.guarantee-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.guarantee-container h1 {
+    margin-top: 100px;
+    color: green;
+}
+
+.guarantee-container p {
+    font-size: large;
+}
+
+.theme-color {
+    color: rgb(233, 30, 30)
+}
+@media only screen and (max-width: 1200px){
+    
+    .footer-overlay {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    
+    .footer-overlay h3 {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .footer-overlay {
+        display: block;
+        padding: 2rem 0;
+        text-align: center;
+    }
+    .contact-us {
+        margin: 3rem 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .mobile-footer {
+     display: flex;
+    }
+    .desktop-footer {
+     display: none;
+    }
+ }
+ 
+ 
+
+
+
+
+

@@ -1,0 +1,133 @@
+
+
+
+.main-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 1rem 0;
+    background-image: linear-gradient(to left, rgba(243, 243, 243, 0.662), rgba(210, 5, 5, 0.623), rgba(243, 243, 243, 0.662));
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: rgb(168, 168, 168) solid 4px;
+    border-top: rgb(168, 168, 168) solid 4px;
+}
+
+.gallery-video-wrapper h2 {
+    color: rgb(40, 40, 40);
+    text-align: center;
+    margin: 10px 0;
+}
+
+.gallery-btn h2 {
+    color: rgb(241, 240, 240);
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+
+.gallery-container {
+    padding: 14vh 1rem 3rem 1rem;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.gallery-container h1 {
+    margin: 2rem 0;
+}
+
+.gallery-dents, .gallery-scratches, .gallery-rims {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 15px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 15px;
+    padding: 1rem 15px;
+}
+
+.gallery-btn {
+    padding: 0.7rem 0;
+    background-image: linear-gradient(to top, rgb(0, 208, 255), rgba(135, 135, 135, 0.662));
+    border: 2px solid black;
+    margin: 1rem auto;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 10px rgba(0, 0, 0, 0.253);
+    width: 95%;
+    max-width: 950px;
+    
+}
+.gallery-icon {
+    font-size: 50px;
+    color: rgb(249, 249, 249);
+    margin:  0 1rem;
+}
+
+.main-video button {
+    cursor: pointer;
+}
+.main-video-click-here {
+    font-size: 14px;
+}
+.gallery-video-wrapper {
+    text-align: center;
+    padding: 0;
+    max-width: 950px;
+    display: block;
+    background-color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    overflow: hidden;
+    margin: 10px auto;
+    box-shadow: 10px 10px 50px 20px rgba(0, 0, 0, 0.253);
+    border: 20px solid rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+
+
+ 
+.gallery-video-wrapper video {
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+@media only screen and  (max-width: 600px) {
+    .gallery-container{
+        padding: 14vh 5px 3rem 5px;
+    }
+    .gallery-dents, .gallery-rims, .gallery-scratches {
+        padding: 0.7rem 5px;
+    }
+
+    .main-video h2 {
+        font-size: large;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and  (max-width: 1000px) {
+    .gallery-video-wrapper video {
+        max-width: 100%;
+    }
+    .gallery-video-wrapper {
+        border: none;
+        margin: 10px 0;
+        max-width: 100%;
+    }
+}
+
