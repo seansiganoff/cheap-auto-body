@@ -25,6 +25,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        
         <div className="copyright">
             CHEAP MOBILE AUTO BODY 2025 LLC.
         </div>

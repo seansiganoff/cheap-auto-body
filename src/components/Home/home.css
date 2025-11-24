@@ -12,6 +12,7 @@
     height: 100vh;
     object-fit: cover;
     filter: brightness(100%);
+    box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.482);
 }
 
 .home-text-top-left {
@@ -40,10 +41,11 @@
 }
 
 .home-p {
-    color: rgb(2, 155, 15);
+    color: rgb(8, 205, 25);
     font-weight: 600;
     box-shadow: 0px 0px 45px 2px rgba(255, 255, 255, 0.253);
     width: 50%;
+    background-color: rgba(0, 0, 0, 0.669);
     padding: 0.5rem 1rem;
     border-radius: 25px;
     text-align: center;
@@ -119,14 +121,25 @@ h1 {
     color: black;
 }
 
+@media only screen and (max-width: 1600px) { 
+    .home-text-top-left {
+        font-size: xx-large
+    }
+
+    .home-p {
+        font-size: medium;
+    }
+
+    .home-locations-bottom {
+        font-size: small;
+    }
+}
 
 
 
 
 @media only screen and (max-width: 1000px) { 
-    .home-background-audi {
-        filter: brightness(70%);
-    }
+    
     .home-text-top-left {
         font-size: xx-large;
     }
@@ -146,6 +159,17 @@ h1 {
     
 }
 
+
+@media only screen and (max-width: 900px) {
+    
+    .home-text-top-left {
+      
+        font-size: large;
+    }
+    
+    
+}
+
 @media only screen and (max-width: 700px) {
     .company-logo {
         width: 100%;
@@ -153,10 +177,7 @@ h1 {
     .locations {
         font-size: medium;
     }
-    .home-text-top-left {
-        width: 70%;
-        font-size: x-large;
-    }
+    
     
     
 }
@@ -167,6 +188,11 @@ h1 {
         font-size: small;
         padding: 1rem 10px;
     }
-    
+    .home-text-top-left {
+        top: 8rem;
+        font-size: medium;
+    }
+    .home-p {
+        font-size: x-small;
+    }
 }
-

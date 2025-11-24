@@ -8,11 +8,10 @@
     align-items: center;
     margin: 0 auto;
     padding: 1rem 0;
-    background-image: linear-gradient(to left, rgba(243, 243, 243, 0.662), rgba(210, 5, 5, 0.623), rgba(243, 243, 243, 0.662));
+    background-image: linear-gradient(to bottom, rgb(123, 123, 123), rgb(117, 117, 117), rgb(135, 135, 135));
     flex-wrap: wrap;
     flex-direction: row;
-    border-bottom: rgb(168, 168, 168) solid 4px;
-    border-top: rgb(168, 168, 168) solid 4px;
+    box-shadow: 0px 0px 45px 2px rgba(0, 0, 0, 0.742);
 }
 
 .gallery-video-wrapper h2 {
@@ -46,7 +45,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 15px;
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(0, 0, 0);
     border-radius: 15px;
     padding: 1rem 15px;
 }
@@ -64,7 +63,7 @@
 }
 .gallery-icon {
     font-size: 50px;
-    color: rgb(249, 249, 249);
+    color: rgb(0, 0, 0);
     margin:  0 1rem;
 }
 
@@ -77,17 +76,19 @@
 .gallery-video-wrapper {
     text-align: center;
     padding: 0;
-    max-width: 950px;
+    max-width: 750px;
     display: block;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    max-height: 500px;
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
     text-align: left;
     overflow: hidden;
-    margin: 10px auto;
+    margin: 10px 20px;
     box-shadow: 10px 10px 50px 20px rgba(0, 0, 0, 0.253);
-    border: 20px solid rgb(255, 255, 255);
+    border: 3px solid rgb(28, 28, 28);
     border-radius: 5px;
 }
 

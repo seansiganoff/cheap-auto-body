@@ -149,8 +149,19 @@ a:visited {
         font-size: x-large;
     }
     
+    .nav-business-name {
+        font-size: medium;
+    }
+    .home-icons {
+        width: 3rem;
+    }
     
-    
+}
+
+@media only screen and (max-width: 400px) {
+    .nav-business-name {
+        font-size: x-small;
+    }
 }
 
 
